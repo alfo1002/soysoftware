@@ -9,7 +9,7 @@
 <meta property="og:url"           content="https://soysoftware.com/" />
 <meta property="og:type"          content="website" />
 <meta property="og:title"         content="{{ config('app.name','SOYSOFTWARE') }}" />
-<meta property="og:description"   content="Desarrollo de soysoftware" />
+<meta property="og:description"   content="Empresa desarrolladora de software" />
 <meta property="og:image"         content="{{ asset('img/social.jpg') }}" />
 
 {{-- title --}}
