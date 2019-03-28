@@ -22,11 +22,11 @@ Necesitas algunos de nuestro servicio o productos. O quieres trabajar con nosotr
 
 Nos gustaría extender nuestro agradecimiento a los siguientes patrocinadores por financiar el desarrollo de algunos proyectos. Si está interesado en convertirse en patrocinador, escribenos a info@soysoftware.com
 
-- **[ESCUELA](https://www.sindicatodepastocalle.com/)**
+- **[Sindicato de pastocalle](https://www.sindicatodepastocalle.com/)**
 - **[Universidad Técnica de Cotopaxi](http://www.utc.edu.ec/)**
 - **[Alfaduino](https://alfaduino.com/)**
 - **[Artesanias la victoria](http://artesaniaslavictoria.com/)**
-... entre otros. 
+- **[..entre otros]**
 
 ## Contribuyendo
 
