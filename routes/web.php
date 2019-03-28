@@ -12,10 +12,7 @@
 */
 
 Route::get('/', function () {
-    Artisan::call('cache:clear');
-    Artisan::call('config:clear');
-    Artisan::call('config:cache');
-    return 'ok';
+    return view('welcome');
 });
 
 Route::get('/contactos', 'Contactos@index')->name('contactos');
