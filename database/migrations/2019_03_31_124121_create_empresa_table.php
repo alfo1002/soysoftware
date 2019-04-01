@@ -26,6 +26,7 @@ class CreateEmpresaTable extends Migration
             $table->string('email')->nullable();
             $table->string('descripcion')->nullable();
             $table->string('estado')->default(true);
+            $table->string('iva')->default(12);
 
             /*un cliente tiene varias empresa*/
             $table->unsignedBigInteger('user_id');
