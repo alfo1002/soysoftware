@@ -12,6 +12,7 @@
 */
 
 Route::get('/', function () {
+	Artisan::call('storage:link');
     Artisan::call('cache:clear');
     Artisan::call('config:clear');
     Artisan::call('config:cache');
