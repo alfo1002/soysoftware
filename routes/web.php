@@ -21,3 +21,11 @@ Route::post('/contactos-enviar', 'Contactos@enviar')->name('contactosEnviar');
 Auth::routes();
 
 Route::get('/home', 'HomeController@index')->name('home');
+
+/*empresa*/
+Route::get('/mis-empresas', 'Empresas@index')->name('misEmpresas');
+Route::get('/crear-empresa', 'Empresas@crear')->name('crearEmpresa');
+Route::post('/guardar-empresa', 'Empresas@guardar')->name('guardarEmpresa');
+Route::get('/info-empresa/{id}', 'Empresas@info')->name('infoEmpresa');
+Route::post('/actualizar-empresa', 'Empresas@actualizar')->name('actualizarEmpresa');
+

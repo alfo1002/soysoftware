@@ -5,7 +5,7 @@ namespace isoft;
 use Illuminate\Notifications\Notifiable;
 use Illuminate\Contracts\Auth\MustVerifyEmail;
 use Illuminate\Foundation\Auth\User as Authenticatable;
-
+use isoft\Models\Empresa;
 class User extends Authenticatable
 {
     use Notifiable;
@@ -36,4 +36,11 @@ class User extends Authenticatable
     protected $casts = [
         'email_verified_at' => 'datetime',
     ];
+
+
+    /*un usuario tiene nuchas empresas*/
+    public function empresas()
+    {
+        return $this->hasMany(Empresa::class);
+    }
 }

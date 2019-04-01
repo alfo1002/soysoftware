@@ -18,6 +18,9 @@
         @guest
         @else
           {{-- añadir menus cuando estelogin --}}
+          <li class="nav-item">
+              <a class="nav-link" href="{{ route('misEmpresas') }}" >Mis Empresas</a>
+          </li>
         @endguest
       </ul>
 
