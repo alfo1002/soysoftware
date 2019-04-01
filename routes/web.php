@@ -12,7 +12,9 @@
 */
 
 Route::get('/', function () {
-    Artisan::call('migrate');
+    Artisan::call('cache:clear');
+    Artisan::call('config:clear');
+    Artisan::call('config:cache');
     return 'ok';
 });
 

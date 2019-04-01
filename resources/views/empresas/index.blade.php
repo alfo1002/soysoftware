@@ -26,7 +26,7 @@ left:54px;
       <a href="{{ route('infoEmpresa',$e->id) }}" class="list-group-item list-group-item-action flex-column align-items-start">
         <div class="d-flex w-100 justify-content-between">
           <h5 class="mb-2 h5">
-            {{ $e->nombre }} {{ $e->id }}
+            {{ $e->nombre }}
           </h5>
           <small class="text-muted">
            <strong>Creado el:</strong> {{ $e->created_at }} <br>{{ $e->created_at->diffForHumans() }}
