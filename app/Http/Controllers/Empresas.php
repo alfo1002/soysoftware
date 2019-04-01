@@ -61,7 +61,7 @@ class Empresas extends Controller
         $emp->save();
 
         $request->session()->flash('success','Empresa creado');
-        return redirect()->route('empresa.index');
+        return redirect()->route('misEmpresas');
     }
 
     /**
